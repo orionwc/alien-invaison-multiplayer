@@ -1,0 +1,35 @@
+{
+    "name": "Alien Invaison Multiplayer",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-background-scroll": "github:microsoft/arcade-background-scroll#926e12eefffd09d453c7cde73f8d6ebd0e666d9d/",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.8.29",
+        "tag": "v1.8.29",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/d9e3489664e2b8e4c3245a43d28fca1ca5ea001a",
+        "target": "1.12.46",
+        "pxt": "7.4.30",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
